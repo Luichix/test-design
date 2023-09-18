@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.checked {
+  background-color: #85bf55;
+  border: 2px solid #85bf55;
+}
+
+.review {
+  color: #ffffff;
+  background-color: #2c7ef8;
+  border: 2px solid #2c7ef8;
+}
+
+.pending {
+  color: #2c7ef8;
+  border: 1px solid #2c7ef8;
+}
+
+.label {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 13.2px */
+  text-transform: capitalize;
+}
+
+.active {
+  font-weight: 700;
+}
+
+@media (width >= 1500px) {
+  .container {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .label {
+    font-size: 20px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
