@@ -204,6 +204,66 @@
   display: none;
 }
 
+@media (width >= 1024px) {
+  .section {
+    padding: 32px 8rem;
+    margin-top: -20px;
+  }
+  .text {
+    line-height: 100%;
+  }
+
+  .promotion {
+    line-height: 140%;
+    text-align: left;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+  }
+  .profile figure {
+    position: relative;
+    display: block;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .name {
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 14px */
+  }
+
+  .verified {
+    color: #5bb59a;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 14.4px */
+  }
+
+  .recommend {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 24px;
+  }
+
+  .recommend p {
+    color: #4d5254;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+}
+
 @media (width >= 1500px) {
   .section {
     padding: 0 8rem;
@@ -297,5 +357,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
+  }
+}
+
+@media (width >= 640px) {
+  .section {
+    padding: 32px 4rem;
   }
 }

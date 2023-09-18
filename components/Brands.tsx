@@ -5,7 +5,7 @@ import Norton from './svg/Norton';
 
 const Brands = () => {
   return (
-    <div className="p-5 flex justify-between items-center xl:px-[128px] xl:py-[30px]">
+    <div className="p-5 flex justify-between items-center sm:px-16 xl:py-[30px]">
       <figure className="w-[108px] h-5 xl:w-48 xl:h-9 relative block">
         <Image
           src={clarifion}

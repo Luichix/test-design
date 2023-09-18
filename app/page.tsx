@@ -54,7 +54,7 @@ export default function Home() {
         </p>
         <p className={classNames(styles.text, styles.subtitle)}>
           Lorem ipsum dolor sit amet, consectetur &nbsp;
-          <span className="hidden xl:inline">adipiscing</span>
+          <span className="hidden lg:inline xl:inline">adipiscing</span>
         </p>
         <div className={styles.stages}>
           {stages.map(({ id, label, completed, active }) => (
@@ -67,14 +67,14 @@ export default function Home() {
             />
           ))}
         </div>
-        <div className="flex flex-col gap-6 xl:p-10 xl:gap-y-8 xl:gap-x-10 xl:grid xl:grid-cols-2 xl:grid-rows-auto">
+        <div className="flex flex-col gap-6 lg:p-10 lg:gap-y-8 lg:gap-x-10 lg:grid lg:grid-cols-2 lg:grid-rows-auto">
           <p className={classNames(styles.text, styles.promotion)}>
             <span className={styles.special}>ONE TIME ONLY</span> special price
             for 6 extra Clarifion for only{' '}
             <span className={styles.special}>$14 each</span> ($84.00 total!)
           </p>
-          <div className="xl:col-start-1 xl:row-start-1  xl:row-end-7 ">
-            <figure className="w-[320px] h-[328px] xl:w-full xl:h-auto relative block  ">
+          <div className="lg:col-start-1 lg:row-start-1 flex flex-col lg:row-end-7 ">
+            <figure className="w-full h-full self-center lg:w-full lg:h-auto ">
               <Image
                 src={productDetails}
                 alt="details products image"

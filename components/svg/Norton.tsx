@@ -3,7 +3,7 @@ const Norton = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    className="w-10 h-4 translate-y-3 translate-x-6 xl:scale-x-200 xl:scale-y-200"
+    className="w-10 h-4 xl:translate-y-3 xl:translate-x-6 xl:scale-x-200 xl:scale-y-200"
     {...props}
   >
     <g clipPath="url(#a)">
